@@ -68,6 +68,18 @@ D=M
 @R3
 M=D
 
+@R0
+D=M
+@setQneg
+D;JLT
+
+@exit
+0;JMP
+
+(setQneg)
+@R3
+M=-M
+
 @exit
 0;JMP
 
